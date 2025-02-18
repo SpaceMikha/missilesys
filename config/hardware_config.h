@@ -1,0 +1,10 @@
+#ifndef HARDWARE_CONFIG_H
+#define HARDWARE_CONFIG_H
+
+#define CPU_FREQUENCY 16000000 // 16 MHz
+#define MAX_THRUST 5000.0
+#define MAX_CONTROL_ANGLE 30.0
+#define GPS_BAUD_RATE 9600
+#define SENSOR_POLL_INTERVAL_MS 100  // Sensor data polling interval
+
+#endif // HARDWARE_CONFIG_H
